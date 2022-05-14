@@ -1,0 +1,30 @@
+.section{
+    background-image: url("assets/16.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    height:100%;
+    position:relative;
+}
+
+img{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+/*.button1{
+    float:right;
+    margin-top:50px;
+    margin-right: 40px;
+}*/
+.section1{
+    text-align: left;
+    color:white;
+    margin: left 40px;
+    margin-top: 200px
+}
+h1{
+font-size: 40px;
+}
+.section2{
+    font-size:20px
+}
