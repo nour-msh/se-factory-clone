@@ -22,7 +22,10 @@
     text-align: left;
     color:white;
     margin-left:90px;
-    margin-top: 200px
+    margin-top: 200px;
+    width:40%;
+    
+
 }
 h2{
 font-size: 50px;
@@ -38,7 +41,7 @@ font-size: 50px;
     font-size: 15px;
     border-radius:5px;
     border:0;
-    margin-left: 90px;
+    margin-left: 70px;
     /*position: fixed;*/
 }
 h1{
@@ -87,3 +90,19 @@ h1{
     margin-right: 90px;
 
 }
+.section4{
+    background-color: yellowgreen ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head-2{
+    text-align: center;
+    font-size: 50px;
+    color:white;
+}
+.img34{
+    display: flex;
+    justify-content: center;
+}
+
