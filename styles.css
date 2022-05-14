@@ -128,5 +128,19 @@ h1{
     width:35%;
     margin-right: 90px;
 }
+.section6{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.head-4{
+    font-size: 50px;
+    max-width: 60%;
+    margin-left: 20%;
+}
+.para6{
+    font-size: 25px;
+}
 
 
