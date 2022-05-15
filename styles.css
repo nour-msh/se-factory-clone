@@ -4,16 +4,17 @@
     background-image: url("assets/16.JPG");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    padding: 0;
     height:100%;
     width:100%;
-    /* position:fixed; */
+    position:sticky;
+    background-position:center;
+
 }
 
 .img1{
     margin-left: 90px;
     margin-top: 10px;
+    position: relative;
 }
 /*.button1{
     float:right;
@@ -24,17 +25,15 @@
     text-align: left;
     color:white;
     margin-left:90px;
-    margin-top: 200px;
-    width:40%;
-    
-
+    width:50%;
+    position: relative;
+    margin-bottom: 20px;
 }
 h2{
 font-size: 50px;
 }
 .sec2{
     font-size:30px;
-    position:relative
 }
 .button1{
     background-color: greenyellow;
@@ -44,23 +43,25 @@ font-size: 50px;
     border-radius:5px;
     border:0;
     margin-left: 70px;
-    /*position: fixed;*/
+    position:relative
 }
-h1{
-    color:yellowgreen;
-    font-size: 60px;
-    text-align: center;
-}
+
 .section2{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
+    text-align: center;
     flex-wrap: wrap;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     font-weight: bold;
     line-height: 1.4;
 
+}
+h1{
+    color:rgb(172, 255, 5);
+    font-size: 60px;
+    text-align: center;
 }
 .para1{
     font-size: 25px;
@@ -82,7 +83,7 @@ h1{
     margin: 5%;
 
 }
-.head-1{
+.para10{
     text-align: left;
     font-size: 50px;
 }
@@ -117,7 +118,7 @@ h1{
     flex-wrap: wrap;
     margin: 5%;
 }
-.head-3{
+.para9{
     text-align: left;
     font-size: 50px;
 }
@@ -136,7 +137,7 @@ h1{
     text-align: center;
     flex-direction: column;
 }
-.head-4{
+.para8{
     font-size: 35px;
     max-width: 48%;
     margin-left: 26%;
@@ -146,18 +147,20 @@ h1{
 }
 .section7{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
     justify-content: center;
-    background-color: rgb(168, 168, 168);
+    background-color: #a8a8a8;
     padding: 15px 10px 75px 100px;
 }
 .section8{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 15px 10px 0px 100px;
+    padding: 15px 50px 10px 100px;
+    text-align: center;
+
 }
 hr{
     width:80%;
@@ -169,4 +172,25 @@ hr{
     text-align: center;
     flex-direction: column;
     padding: 15px 10px 40px 100px;
+    font-size: 50px;
+}
+.section10{
+    background-color: #d1cfcf;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.para7{
+    padding: 40px;
+}
+.button2{
+    background-color: black;
+    color:white;
+    height: 50px;
+    width:120px;
+    font-size: 20px;
+    border-radius:5px;
+    margin-bottom: 40px;
+    font-weight: 200;
 }
