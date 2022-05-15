@@ -162,3 +162,11 @@ h1{
 hr{
     width:80%;
 }
+.section9{
+    display:flex;
+    justify-content:center;
+    flex:wrap;
+    text-align: center;
+    flex-direction: column;
+    padding: 15px 10px 40px 100px;
+}
