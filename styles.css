@@ -97,7 +97,7 @@ h1{
     width:35%;
 }
 .section4{
-    background-color: yellowgreen ;
+    background-color: #9acd32 ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,7 +179,8 @@ hr{
     text-align: center;
     justify-content: center;
     font-size: 50px;
-    margin-bottom: 40px;
+    margin-bottom:0px;
+
 }
 .para7{
     padding: 40px;
@@ -193,4 +194,28 @@ hr{
     border-radius:5px;
     margin-bottom: 40px;
     font-weight: 200;
+}
+.button3{
+    background: none;
+    border:none;
+    border-bottom: 1px solid #9acd32 ;
+    font-size: 15px;
+    color:#9acd32;
+    font-size:20px
+}
+.para11{
+    font-size: 20px;
+    color: white;
+}
+.section11{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    padding: 0%;
+}
+.icons{
+    color: white;
+    padding: 20px;
 }
