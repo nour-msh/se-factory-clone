@@ -155,8 +155,6 @@ h1{
     padding: 15px 10px 75px 100px;
 }
 .section8{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 15px 50px 10px 100px;
     text-align: center;
